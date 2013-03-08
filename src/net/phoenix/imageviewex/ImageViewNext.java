@@ -1,6 +1,5 @@
 package net.phoenix.imageviewex;
 
-import net.phoenix.cache.BytesCache;
 import net.phoenix.remote.RemoteLoader;
 import net.phoenix.remote.RemoteLoaderHandler;
 import android.content.Context;
@@ -17,7 +16,7 @@ import android.util.AttributeSet;
  * @author Sebastiano Poggi
  * 
  */
-@SuppressWarnings("rawtypes")
+
 public class ImageViewNext extends ImageViewEx {	
 	private RemoteLoader loader = null;
 	private static RemoteLoader classLoader = null;
